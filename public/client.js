@@ -15,7 +15,7 @@ form.onsubmit = event => {
             "Content-Type": "application/json"
         }
     }) 
-    .then(response => response.json())
+    .then(response => response.json());
     .then(data =>{
         console.log("no errors");
     })
